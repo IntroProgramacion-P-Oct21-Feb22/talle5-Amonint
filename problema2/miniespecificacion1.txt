@@ -1,0 +1,28 @@
+Solución que imprima el costo de un pedido de un 
+artículo del cual se tiene la descripción, 
+la cantidad que se requiere y el precio unitario. 
+Si la cantidad pedida excede de 50 unidades, 
+se hace un descuento de 15%.
+
+1.-Inicio
+//declaro las variables//
+2.- pedido x(30)[{a-z}, {BS}, {A-Z}])
+3.- cantidad-producto d[0,n]
+4.- precio unitario d[0,n] 
+5.- edad, i[0,n] 
+6.- descuento, d[0,n]
+7.- porcentaje, d[0,n]
+8.- porcentaje <--- 15
+9.-Escribir "Ingrese el pedido"
+10.-Lea pedido
+11.-Escribir "Ingrese la cantidad requerida producto"
+12.-Lea cantidad-producto
+13.-Escribir "Ingrese el precio unitario"
+14.-Lea precio unitario
+15.- Valor total= cantidad-producto * precio unitario
+16.-Si cantidad-producto > 50 entonces
+17.-descuento <-- (porcentaje*valortotal)/100
+18.-valor total<--valor total- descuento
+19 fin si
+20.-Escribir"el valor total a pagar es "+Valortotal
+21.-Fin
